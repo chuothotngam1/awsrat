@@ -12,7 +12,7 @@ sudo apt-key add /var/cuda-repo-10-0-local-10.0.130-410.48/7fa2af80.pub
 sudo apt-get update
 sudo apt-get -y install cuda
 sudo apt-get install libcurl3 -y
-wget https://github.com/ethereum-mining/ethminer/releases/tag/v0.18.0/ethminer-0.18.0-cuda-9-linux-x86_64.tar.gz
-tar xvzf ethminer-0.18.0-cuda-9-linux-x86_64.tar.gz
+wget https://github.com/ethereum-mining/ethminer/releases/tag/v0.18.0/ethminer-0.18.0-cuda-8-linux-x86_64.tar.gz
+tar xvzf ethminer-0.18.0-cuda-8-linux-x86_64.tar.gz
 cd  bin
 ./ethminer -U -P stratum://0x1a81AD816445c610170F498037c663704A7348e1.worker1@us1-etc.ethermine.org:14444
